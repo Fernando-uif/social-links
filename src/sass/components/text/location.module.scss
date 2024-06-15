@@ -1,0 +1,10 @@
+@import '../../variables/colors.scss';
+
+.location {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: $text-location-light;
+    display: block;
+}

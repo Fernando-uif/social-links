@@ -1,0 +1,16 @@
+@import '../../variables/colors.scss';
+
+.button {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    background-color: $social-background-dark;
+    color: $text-dark;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}

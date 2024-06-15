@@ -1,0 +1,29 @@
+@import './variables/colors.scss';
+
+body {
+    background-color: $background-dark;
+}
+
+.general {
+    padding: 116px 24px 117px 24px;
+
+    &__mainCard {
+
+        background-color: $card-background-dark;
+        padding: 24px;
+        margin: 0 auto;
+        max-width: 327px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__wrapperSocialButton {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+}
