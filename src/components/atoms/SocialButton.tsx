@@ -17,6 +17,8 @@ export const SocialButton = ({
       style={
         {
           "--buttonBackground": `${!isDark ? "#333" : "#CCC"}`,
+          "--colorTextButton": `${!isDark ? "#fff" : "#333"}`,
+          "--colorTransition": `${isDark ? "#fff" : "#fff"}`,
         } as React.CSSProperties
       }
     >

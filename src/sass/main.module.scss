@@ -2,7 +2,7 @@
 
 :root {
     --backgroundPage--dark: #141414;
-    --backgroundPage--light:#F5F5F5;
+    --backgroundPage--light: #F5F5F5;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 
     &__mainCard {
 
-        background-color:var(--backgroundMainCard);
+        background-color: var(--backgroundMainCard);
         padding: 24px;
         margin: 0 auto;
         max-width: 327px;
@@ -24,6 +24,10 @@ body {
         flex-direction: column;
         gap: 24px;
         border-radius: 12px;
+
+        @media screen and (min-width:834px) {
+            max-width: 384px;
+        }
     }
 
     &__wrapperSocialButton {
