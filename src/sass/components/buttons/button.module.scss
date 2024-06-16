@@ -4,7 +4,7 @@
     display: block;
     padding: 12px;
     text-align: center;
-    background-color: $social-background-dark;
+    background-color: var(--buttonBackground);
     color: $text-dark;
     border-radius: 8px;
     cursor: pointer;
